@@ -101,3 +101,16 @@
     gap: 5px;
     flex-wrap: wrap;
 }
+
+@media (min-width: 1000px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        padding: 40px 60px 25px;
+    }
+
+    .container .item-img,
+    .container .item-form {
+        max-width: 500px;
+    }
+}
